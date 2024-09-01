@@ -1,7 +1,6 @@
 package com.example.task.retrofit
 
 import com.example.task.domain.entities.Item
-import com.example.task.domain.entities.ServerDataItem
 import com.example.task.domain.entities.ServerData
 import retrofit2.Call
 import retrofit2.http.GET

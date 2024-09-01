@@ -3,20 +3,15 @@ package com.example.task.presentation.main
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import com.example.task.domain.entities.Item
-import com.example.task.domain.entities.ServerDataItem
 import com.example.task.domain.entities.ServerData
 import com.example.task.retrofit.ApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.await
 import javax.inject.Inject
 
 @HiltViewModel
